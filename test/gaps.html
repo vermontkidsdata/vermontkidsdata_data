@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/jquery-1.7.1.min.js"></script>
+    <script src="https://unpkg.com/konva@7.0.3/konva.min.js"></script>
+    <script type="text/javascript" src="/scripts/datacatalog/gaps.js"></script>
+
+    <script src="/scripts/Chart.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.js"></script>-->
+    <script src="/scripts/chartjs-plugin-annotation.js"></script>
+    <script src="/scripts/chartjs-plugin-datalabels.js"></script>
+    <link rel="stylesheet" href="/stylesheets/Chart.css">
+
+    <style type="text/css" src="/stylesheets/datacatalog/gaps.css"></style>
+
+</head>
+
+<body>
+<div style="width: 100%; text-align: center">
+    <!--<input type="button" onclick="test();" />-->
+    <span id="main">Early Childhood Data Catalog</span>
+    <span id="topic"></span>
+    <span id="subtopic"></span>
+    <span id="dataelement"></span>
+    <!--<a href="#" onclick="testClose();">close</a>-->
+</div>
+<div>
+    <div id="details" style="float: right; width: 0px; padding: 2em; ">
+
+        <canvas id="elementChart" width="700" height="500" ></canvas>
+    </div>
+    <div id="catalog" style=" width: 100%; height: 100%; position: absolute"></div>
+</div>
+<script>
+$( document ).ready(function() {
+    fetchCatalog();
+});
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script type="text/javascript" src="/scripts/jquery-1.7.1.min.js"></script>
+    <script src="https://unpkg.com/konva@7.0.3/konva.min.js"></script>
+    <script type="text/javascript" src="/scripts/datacatalog/gaps.js"></script>
+
+    <style type="text/css" src="/stylesheets/datacatalog/gaps.css"></style>
+
+</head>
+
+<body>
+<div style="width: 100%; text-align: center">
+    <span id="main">Early Childhood Data Catalog</span>
+    <span id="topic"></span>
+    <span id="subtopic"></span>
+    <span id="dataelement"></span>
+</div>
+<div id="catalog" style="width: 100%; height: 100%; position: absolute"></div>
+
+<script>
+$( document ).ready(function() {
+    fetchCatalog();
+});
+</script>
+
+</body>
+
+</html>

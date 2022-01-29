@@ -1,0 +1,14 @@
+@CHARSET "ISO-8859-1";
+
+.left-menu-icon {
+	margin-right: 10px;
+}
+
+.main-container { 
+	background-color: white !important; 
+	padding-left: 35px !important;
+	padding-right: 35px !important;
+	padding-top: 20px;
+	margin-top: 20px;
+	min-height: 500px;
+}
