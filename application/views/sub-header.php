@@ -52,6 +52,7 @@ data-target="#sidebar" data-class="c-sidebar-lg-show" responsive="true">
 <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="/">Dashboard</a></li>
 <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="/users"><i class="fas fa-user left-menu-icon"></i> Users</a></li>
 <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="/"><i class="fas fa-cog left-menu-icon"></i> Settings</a></li>
+<li class="c-header-nav-item px-3">From GitHub</li>
 <li class="c-header-nav-item px-3"><a class="c-header-nav-link" href="/userlogin/logout">Logout</a></li>
 
 </ul>
